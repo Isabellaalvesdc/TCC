@@ -1,0 +1,34 @@
+{
+  "name": "kute.js",
+  "version": "1.6.7",
+  "description": "Complete Native Javascript animation engine.",
+  "main": "kute.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "min": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thednp/kute.js.git"
+  },
+  "keywords": [
+    "kute.js",
+    "svg morph",
+    "svg transform",
+    "tweening engine",
+    "animation engine",
+    "javascript animation engine",
+    "javascript animation",
+    "animations",
+    "native javascript"
+  ],
+  "author": "thednp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thednp/kute.js/issues"
+  },
+  "homepage": "http://thednp.github.io/kute.js",
+  "dependencies": {
+    "uglify-js": "^2.7.3"
+  }
+}

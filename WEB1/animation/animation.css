@@ -1,0 +1,870 @@
+html, body {
+	height: 100%; 
+	margin: 0;
+	overflow:hidden;
+}
+
+.circulo {
+	border-radius: 100%;
+} 
+
+.image {
+	height: 100%;
+	width:	100%;
+}
+
+.divs {
+	position: absolute;
+}
+
+.emiter {
+	border-radius: 100%;
+	background-image: radial-gradient(transparent, #EE4444);
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+	border-radius: 10px;
+	background-image: linear-gradient(to right, green, red);
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #1485CC;
+    cursor: pointer;
+	border-radius: 15px;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #1485CC;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+	width: 60px;
+}
+
+
+
+#blueSky, #night {
+	height: 100%;
+	width:	100%;
+}
+
+#darkSky {
+	height:	30%;
+	width:	100%;
+}
+
+#exosfera{
+	background-color: rgba(0,112,184, 0.5);
+	height: 300%;
+	width: 300%;
+	left: -100%;
+	bottom: -210%;
+}
+
+#termosfera{
+	background-color: rgba(30,112,184, 0.5);
+	height: 300%;
+	width: 300%;
+	left: -100%;
+	bottom: -220%;
+}
+
+#mesosfera{
+	background-color: rgba(0,100,184, 0.6);
+	height: 300%;
+	width: 300%;
+	left: -100%;
+	bottom: -230%;
+}
+
+#estratosfera{
+	height: 300%;
+	width: 300%;
+	left: -100%;
+	bottom: -240%;
+	background-image: radial-gradient(white, white, white, rgb(0,100,223), rgb(0,100,223));
+	opacity: 0.7;
+	
+}
+
+#troposfera{
+	height: 300%;
+	width: 300%;
+	left: -100%;
+	bottom: -250%;
+	background-image: radial-gradient(white,white, rgb(2,127,255),rgb(2,127,255));
+}
+
+#water {
+	height: 5%;
+	width:  100%;
+	bottom: 0%;
+}
+
+#sand {
+	height: 6%;
+	width:  30%;
+	right:  50%;
+	bottom: 0;
+}
+
+#ground {
+	height: 7%;
+	width:  40%;
+	right:  30%;
+	bottom: 0;
+}
+
+#ground2 {
+	height: 7%;
+	width:  40%;
+	right:  0;
+	bottom: 0;
+}
+
+#asphalt {
+	height:	1%;
+	width:	50%;
+	right:	0;
+	bottom:	7.5%;
+}
+
+#city {
+	height:	30%;
+	width:	30%;
+	right:	0;
+	bottom:	7%;
+}
+
+#outdoor {
+	height:	7%;
+	width:	2.5%;
+	right:	6.5%;
+	bottom:	16.2%;
+}
+
+#tree1 {
+	height:	7%;
+	width:	11%;
+	right:	39%;
+	bottom:	6%;
+}
+
+#tree2 {
+	height:	7%;
+	width:	11%;
+	right:	29%;
+	bottom:	6%;
+}
+
+#tree3 {
+	height:	8%;
+	width:	11%;
+	right:	31%;
+	bottom:	6.5%;
+}
+
+#tree4 {
+	height:	6%;
+	width:	11%;
+	right:	33%;
+	bottom:	6%;
+}
+
+#tree5 {
+	height:	8.5%;
+	width:	11%;
+	right:	35%;
+	bottom:	6%;
+}
+
+#tree6 {
+	height:	5%;
+	width:	10%;
+	right:	37%;
+	bottom:	6%;
+}
+#tree7 {
+	height:	5%;
+	width:	10%;
+	right:	7.6%;
+	bottom:	6.5%;
+}
+
+#tree8 {
+	height:	6%;
+	width:	10%;
+	right:	0.3%;
+	bottom:	6.5%;
+}
+
+#tree9 {
+	height:	6%;
+	width:	10%;
+	right:	0%;
+	bottom:	6.5%;
+}
+
+#tree10 {
+	height:	5%;
+	width:	10%;
+	right:	8.5%;
+	bottom:	6.5%;
+}
+
+#tree11 {
+	height:	5%;
+	width:	10%;
+	right:	28%;
+	bottom:	6.5%;
+}
+
+#tree12 {
+	height:	5%;
+	width:	10%;
+	right:	30%;
+	bottom:	6.5%;
+}
+
+#tree13 {
+	height:	5%;
+	width:	10%;
+	right:	15%;
+	bottom:	6.5%;
+}
+
+#tree14 {
+	height:	5%;
+	width:	10%;
+	right:	24.5%;
+	bottom:	6.5%;
+}
+
+#bush1 {
+	height:	3%;
+	width:	9%;
+	right:	27.5%;
+	bottom:	6.3%;
+}
+
+#bush3 {
+	height:	3%;
+	width:	9%;
+	right:	30.5%;
+	bottom:	6.3%;
+}
+
+#bush2 {
+	height:	3%;
+	width:	9%;
+	right:	33.5%;
+	bottom:	6.3%;
+}
+
+#bush4 {
+	height:	3%;
+	width:	9%;
+	right:	35.5%;
+	bottom:	6.3%;
+}
+
+#bush5 {
+	height:	3%;
+	width:	9%;
+	right:	37.5%;
+	bottom:	6.3%;
+}
+
+#bush6 {
+	height:	3%;
+	width:	9%;
+	right:	41.5%;
+	bottom:	6.3%;
+}
+
+#sunshade {
+	height:	6%;
+	width:	2%;
+	right:	63%;
+	bottom:	4.1%;
+}
+
+#sunshade2 {
+	height:	6%;
+	width:	2%;
+	right:	64%;
+	bottom:	3.8%;
+}
+
+#sunshade3 {
+	height:	5%;
+	width:	2%;
+	right:	65.5%;
+	bottom:	3.4%;
+}
+
+#sunshade4 {
+	height:	4%;
+	width:	2%;
+	right:	66.2%;
+	bottom:	4%;
+}
+
+
+#sunshade5 {
+	height:	4%;
+	width:	2.5%;
+	right:	66.5%;
+	bottom:	3%;
+}
+
+
+#sunshade6 {
+	height:	4%;
+	width:	2%;
+	right:	67%;
+	bottom:	2.7%;
+}
+
+
+#sunshade7 {
+	height:	4%;
+	width:	2%;
+	right:	64.2%;
+	bottom:	3.5%;
+}
+
+#sunshade9 {
+	height:	4%;
+	width:	2%;
+	right:	62%;
+	bottom:	4%;
+}
+
+#sunshade8 {
+	height:	4%;
+	width:	2%;
+	right:	63%;
+	bottom:	2.7%;
+}
+
+#sunshade10{
+	height:	4%;
+	width:	2%;
+	right:	61%;
+	bottom:	3.6%;
+}
+
+
+#ballon1{
+	height: 6%;
+	width:  2.7%;
+	right:	81%;
+	bottom: 27%;
+	
+}
+
+#ballon2{
+	height: 5%;
+	width:  4%;
+	right:	64.8%;
+	bottom: 39%;
+	
+}
+
+#ballon3{
+	height: 5%;
+	width:  4%;
+	right:	38%;
+	bottom: 33%;
+	
+}
+
+#ballon4{
+	height: 5%;
+	width:  4%;
+	right:	25%;
+	bottom: 42%;
+	
+}
+
+
+#airplane{
+	height: 8%;
+	width: 9%;
+	right:	3%;
+	bottom: 42%;
+	
+}
+
+#satellite{
+	height: 8%;
+	width: 9%;
+	right:	29%;
+	bottom: 73%;
+	
+}
+
+#satellite2{
+	height: 8%;
+	width: 9%;
+	right:	91%;
+	bottom: 63%;
+	
+}
+
+
+#starship{
+	height: 8%;
+	width: 3.5%;
+	right:	69%;
+	bottom: 77%;
+	
+}
+
+
+#starship3{
+	height: 8%;
+	width: 3.5%;
+	right:	10%;
+	bottom: 80%;
+	
+}
+
+#cloud{
+	height: 8%;
+	width: 8%;
+	right:	86%;
+	bottom: 20%;
+	
+}
+
+#cloud2{
+	height: 10%;
+	width: 10%;
+	right:	92%;
+	bottom: 30%;
+	
+}
+
+#cloud3{
+	height: 10%;
+	width: 10%;
+	right:	90%;
+	bottom: 30%;
+	
+}
+
+#cloud4{
+	height: 6%;
+	width: 7%;
+	right:	77%;
+	bottom: 14%;
+	
+}
+
+#cloud5{
+	height: 8%;
+	width:  8%;
+	right:	76%;
+	bottom: 35%;
+	
+}
+
+#cloud6{
+	height: 6%;
+	width: 12%;
+	right:	67%;
+	bottom: 27%;
+	
+}
+
+#cloud7{
+	height: 6%;
+	width: 12%;
+	right:	65%;
+	bottom: 28%;
+	
+}
+
+#cloud8{
+	height: 5%;
+	width:  5%;
+	right:	80%;
+	bottom: 34%;
+	
+}
+
+#cloud9{
+	height: 8%;
+	width:   8%;
+	right:	66%;
+	bottom: 17%;
+	
+}
+
+#cloud10{
+	height: 8%;
+	width:   8%;
+	right:	58%;
+	bottom: 43%;
+	
+}
+
+#cloud11{
+	height: 6%;
+	width:   12%;
+	right:	51%;
+	bottom: 39%;
+	
+}
+
+
+
+#cloud13{
+	height: 6%;
+	width:   12%;
+	right:	49%;
+	bottom: 38%;
+	
+}
+
+#cloud14{
+	height: 5%;
+	width:   5%;
+	right:	49%;
+	bottom: 30%;
+	
+}
+
+#cloud15{
+	height: 7%;
+	width:   7%;
+	right:	46%;
+	bottom: 28%;
+	
+}
+
+#cloud16{
+	height: 8%;
+	width:  8%;
+	right:	50%;
+	bottom: 17%;
+	
+}
+
+#cloud17{
+	height: 7%;
+	width:   7%;
+	right:	57%;
+	bottom: 25%;
+	
+}
+
+#cloud18{
+	height: 5%;
+	width:   5%;
+	right:	33%;
+	bottom: 43%;
+	
+}
+
+#cloud19{
+	height: 7%;
+	width:   7%;
+	right:	30%;
+	bottom: 41%;
+	
+}
+
+#cloud20{
+	height: 10%;
+	width: 10%;
+	right:	26%;
+	bottom: 30%;
+	
+}
+
+#cloud21{
+	height: 10%;
+	width: 10%;
+	right:	24%;
+	bottom: 30%;
+	
+}
+
+#cloud22{
+	height: 6%;
+	width:   12%;
+	right:	30%;
+	bottom: 22%;
+	
+}
+
+#cloud23{
+	height: 6%;
+	width:   12%;
+	right:	2%;
+	bottom: 36%;
+	
+}
+
+#cloud24{
+	height: 3%;
+	width:   3%;
+	right:	13%;
+	bottom: 31%;
+	
+}
+
+#cloud25{
+	height: 5%;
+	width:   5%;
+	right:	10%;
+	bottom: 29%;
+	
+}
+
+#cloud26{
+	height: 5%;
+	width:   5%;
+	right:	40%;
+	bottom: 15%;
+	
+}
+
+#cloud27{
+	height: 8%;
+	width:   8%;
+	right:	13%;
+	bottom: 39%;
+	
+}
+
+#cometa{
+	height: 18%;
+	width:   23%;
+	right:	70%;
+	bottom: 49%;
+	
+}
+
+#meteoro{
+	height: 15%;
+	width:   25%;
+	right:	7%;
+	bottom: 55%;
+	
+}
+
+
+
+#InfraRedPanel{
+	width: 10px;
+	height: 10px;
+	background: 10 10;
+	
+}
+
+
+
+
+
+
+
+#options {
+	width: 100%;
+	bottom: 1.5%;
+}
+
+#slideOption {
+	float: right;
+	margin: 0 1% 0 1%;
+	bottom: 0.5%;
+}
+
+#slideBar {
+	width: 100%;
+	bottom: 0.5%
+}
+
+#labelSlideBar {
+	color: white;
+}
+
+#popupsPanel {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(150, 150, 150, 0.7);
+	visibility: hidden;
+}
+
+#popup {
+	height: 80%;
+	width: 60%;
+	border-radius: 20px;
+	background-color: white;
+	left: 20%;
+	top: 7%;
+	padding: 20px;
+}
+
+#close {
+	height: 30px;
+	width: 30px;
+	border-radius: 5px;
+	background-color: #e32636;
+	color: white;
+	right: 0;
+	top: 0;
+	margin: 10px;
+	font-size: 20px;
+	padding: 3px;
+}
+
+#frame {
+	height: 100%;
+	width: 95%;
+}
+
+#thermometer {
+	height: 15%;
+	width: 7.5%;
+	left: %;
+	bottom: 5%;
+}
+
+#therm2 {
+	height: 3%;
+	width: 2%;
+	background-color: red;
+	border-radius: 20px;
+	left: 2.8%;
+	bottom: 6.7%;
+}
+
+/* 1 - 12*/
+#therm3 {
+	height: 1%;
+	width: 0.6%;
+	background-color: red;
+	border-radius: 20px;
+	left: 3.4%;
+	bottom: 7%;
+}
+
+#temperature {
+	font-size: 25px;
+	text-align: center;
+	left: 8%;
+	bottom: 7%;
+}
+
+#magnifier {
+	height: 8%;
+	width: 4%;
+	left: 1.3%;
+	top: 47%;
+}
+
+#help {
+	height: 10%;
+	width: 5%;
+	right: 1.5%;
+	top: 3%;
+}
+
+#raio1 {
+	height: 15%;
+	width: 20%;
+	left: 0.000001%;
+	bottom: 90%;
+}
+
+#raio2 {
+	height: 15%;
+	width: 20%;
+	right: 0.000001%;
+	bottom: 87%;
+}
+
+#raio3 {
+	height: 15%;
+	width: 20%;
+	left: 53%;
+	bottom: 90%;
+}
+
+#raio4 {
+	height: 15%;
+	width: 20%;
+	right: 53%;
+	bottom: 90%;
+}
+
+#tropos {
+	height: 8%;
+	width: 13%;
+	right: 45%;
+	bottom: 43%;
+}
+
+#estrato {
+	height: 9%;
+	width: 14%;
+	right: 44%;
+	bottom: 53%;
+}
+
+#mesos {
+	height: 7%;
+	width: 12%;
+	right: 45%;
+	bottom: 63%;
+}
+
+#termos {
+	height: 7.5%;
+	width: 12.5%;
+	right: 44.5%;
+	bottom: 73%;
+}
+
+#exos {
+	height: 8%;
+	width: 13%;
+	right: 43%;
+	bottom: 83%;
+}
+
+#fakeOutdoor {
+	height: 2.5%;
+	width: 2.5%;
+	right: 6.6%;
+	bottom: 20.5%;
+}
